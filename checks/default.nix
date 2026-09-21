@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # checks/default.nix
 #
 # EVAL-TIME tests for the nixram NixOS module. No VM, no build: every

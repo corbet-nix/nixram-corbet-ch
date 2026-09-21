@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # system-manager/default.nix
 #
 # The system-manager (numtide) equivalent of modules/default.nix -- the SAME

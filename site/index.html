@@ -30,7 +30,7 @@
     <div class="nav-links">
       <a href="#zram-or-zswap" class="nav-anchor">zram or zswap</a>
       <a href="/docs">Docs</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch">GitHub</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch">GitHub</a>
       <a href="#get-started" class="btn-nav">Get started</a>
       <details class="nav-family">
         <summary>nix* family</summary>
@@ -60,7 +60,7 @@
     <p class="subtitle">A small NixOS module that sets up compressed memory &mdash; zram, or zswap if you prefer &mdash; plus an out-of-memory watchdog and the kernel's memory settings. The default keeps swap inside RAM itself: no disk, no file, no partition. <a href="#zram-or-zswap">Not sure which of the two you want? That question is answered below.</a></p>
     <div class="cta">
       <a href="#get-started" class="btn btn-primary">Get started</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch" class="btn btn-secondary">View on GitHub</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch" class="btn btn-secondary">View on GitHub</a>
     </div>
   </div>
 
@@ -72,7 +72,7 @@
         </div>
         <span class="terminal-title">nixram &mdash; picking the RAM size bracket for a new machine</span>
       </div>
-      <pre class="terminal-body"><code><span class="prompt">$</span> nix run github:julian-corbet/nixram-corbet-ch#detect-level
+      <pre class="terminal-body"><code><span class="prompt">$</span> nix run github:corbet-nix/nixram-corbet-ch#detect-level
 <span class="output">Detected: 3931 MiB total RAM (/proc/meminfo MemTotal)
 Nearest nixram level (rounded UP to the next anchor, never down): 4G
 
@@ -338,12 +338,12 @@ NixOS configuration and commit it like any other hardware fact.
       <div class="install-method">
         <h3>1. Find your level</h3>
         <p>Run this on the machine you are configuring. It reads the real RAM total and prints a line you can paste.</p>
-        <pre><code>nix run github:julian-corbet/nixram-corbet-ch#detect-level</code></pre>
+        <pre><code>nix run github:corbet-nix/nixram-corbet-ch#detect-level</code></pre>
         <p>There is no build-time detection and no default level. Nix builds cannot read the target machine's live memory, so this is a manual step you commit &mdash; like writing down a disk UUID. Detect once, paste once.</p>
       </div>
       <div class="install-method">
         <h3>2. Add the flake input</h3>
-        <pre><code>inputs.nixram.url = "github:julian-corbet/nixram-corbet-ch";</code></pre>
+        <pre><code>inputs.nixram.url = "github:corbet-nix/nixram-corbet-ch";</code></pre>
       </div>
       <div class="install-method">
         <h3>3. Import and declare</h3>
@@ -370,14 +370,14 @@ nixram = {
   <div class="container">
     <div class="footer-links">
       <a href="/docs">Docs</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch">Source</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch/blob/main/docs/rationale.md">Rationale</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch/blob/main/docs/faq.md">FAQ</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch/tree/main/experiments">Experiments</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch/issues">Issues</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch">Source</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch/blob/main/docs/rationale.md">Rationale</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch/blob/main/docs/faq.md">FAQ</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch/tree/main/experiments">Experiments</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch/issues">Issues</a>
     </div>
     <p>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch/blob/main/LICENSE">MIT</a> &middot;
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch/blob/main/LICENSE-MIT">MIT</a> &middot;
       <a href="https://github.com/julian-corbet">Julian Corbet</a> &middot;
       Built on <a href="https://github.com/systemd/zram-generator">zram-generator</a>
     </p>

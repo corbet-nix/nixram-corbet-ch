@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # system-manager/zswap-boot-params-check.nix
 #
 # The NixOS module sets zswap's enabled/compressor/zpool/max_pool_percent/

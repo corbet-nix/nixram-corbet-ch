@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/oomd.nix
 #
 # Arms systemd-oomd with PSI (pressure stall information) thresholds

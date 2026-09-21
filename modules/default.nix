@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/default.nix
 #
 # nixram's whole public option surface. Small and boring on purpose --

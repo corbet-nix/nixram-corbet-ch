@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/lean-activation.nix
 #
 # Shed named tenant units for a short window around a REAL nix closure swap,

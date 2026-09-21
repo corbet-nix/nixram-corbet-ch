@@ -33,7 +33,7 @@
     <a href="#levels">Levels</a>
     <a href="#options">Options</a>
     <a href="#glossary">Glossary</a>
-    <a href="https://github.com/julian-corbet/nixram-corbet-ch">GitHub</a>
+    <a href="https://github.com/corbet-nix/nixram-corbet-ch">GitHub</a>
     <a href="/#get-started" class="btn-nav">Get started</a>
   </div>
 </nav>
@@ -673,7 +673,7 @@
     <li><strong>Nothing is silently guessed.</strong> Enabling the module without a level fails the build with a message. Choosing zswap without a real swap device fails the build with a message.</li>
     <li><strong>nixram never adds an artificial zram write-failure boundary.</strong> It leaves <code>mem_limit</code> at 0, refuses downstream nonzero declarations, and safely lifts a stale live value in place without swapoff.</li>
   </ul>
-  <p>If you find a problem with any of this, open an issue at <a href="https://github.com/julian-corbet/nixram-corbet-ch/issues">github.com/julian-corbet/nixram-corbet-ch/issues</a>. There is no private disclosure channel, because there is no network surface to disclose against.</p>
+  <p>If you find a problem with any of this, open an issue at <a href="https://github.com/corbet-nix/nixram-corbet-ch/issues">github.com/corbet-nix/nixram-corbet-ch/issues</a>. There is no private disclosure channel, because there is no network surface to disclose against.</p>
 </div>
 
 <!-- JUDGEMENT CALLS -->
@@ -871,7 +871,7 @@
 <div class="docs-section">
   <h2>Contributing</h2>
   <p>nixram is MIT licensed. Corrections to the sourcing are as welcome as code &mdash; if a value here is attributed to the wrong place, that is a bug.</p>
-  <pre><code>git clone https://github.com/julian-corbet/nixram-corbet-ch
+  <pre><code>git clone https://github.com/corbet-nix/nixram-corbet-ch
 cd nixram-corbet-ch
 nix flake check</code></pre>
   <p>Experiment results are especially welcome. If you have run any of the four open questions above on real hardware, the numbers are worth more than the reasoning they would replace.</p>
@@ -883,15 +883,15 @@ nix flake check</code></pre>
   <div class="container">
     <div class="footer-links">
       <a href="/">Home</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch">Source</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch/blob/main/docs/rationale.md">Rationale</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch/blob/main/docs/faq.md">FAQ</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch/tree/main/experiments">Experiments</a>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch/issues">Issues</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch">Source</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch/blob/main/docs/rationale.md">Rationale</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch/blob/main/docs/faq.md">FAQ</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch/tree/main/experiments">Experiments</a>
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch/issues">Issues</a>
     </div>
     <p>
-      <a href="https://github.com/julian-corbet/nixram-corbet-ch/blob/main/LICENSE">MIT</a> &middot;
-      <a href="https://github.com/julian-corbet">Julian Corbet</a> &middot;
+      <a href="https://github.com/corbet-nix/nixram-corbet-ch/blob/main/LICENSE-MIT">MIT</a> &middot;
+      <a href="https://github.com/corbet-nix">Julian Corbet</a> &middot;
       Built on <a href="https://github.com/systemd/zram-generator">zram-generator</a>
     </p>
   </div>

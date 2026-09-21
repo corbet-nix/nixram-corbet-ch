@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # experiments/001-systemd-oomd-idle-rss/vm-measure.nix
 #
 # Measures systemd-oomd's real idle RSS on a 256M-class box, inside a

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/zswap.nix
 #
 # zswap is a compressed CACHE in front of a real disk-backed swap

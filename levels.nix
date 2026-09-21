@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # levels.nix
 #
 # Pure data: the fourteen RAM-size anchor levels nixram is tuned for, and

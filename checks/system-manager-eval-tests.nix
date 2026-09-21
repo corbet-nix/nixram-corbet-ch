@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # checks/system-manager-eval-tests.nix
 #
 # EVAL-TIME tests for the system-manager backend (system-manager/*.nix).

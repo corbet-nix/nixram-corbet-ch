@@ -59,13 +59,13 @@ Two distinct audiences, one module:
 
 ```nix
 {
-  inputs.nixram.url = "github:julian-corbet/nixram-corbet-ch";
+  inputs.nixram.url = "github:corbet-nix/nixram-corbet-ch";
 }
 # in your nixosSystem modules:
 imports = [ inputs.nixram.nixosModules.nixram ];
 nixram = {
   enable = true;
-  level = "4G";  # find yours: nix run github:julian-corbet/nixram-corbet-ch#detect-level
+  level = "4G";  # find yours: nix run github:corbet-nix/nixram-corbet-ch#detect-level
 };
 ```
 

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/zram-drift.nix — notice when the RUNNING zram device stops matching the declaration.
 #
 # THE GAP THIS EXISTS FOR. A zram device is created once, at boot, by a systemd generator reading

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Real-kernel coverage for nixram's no-resident-cap safety contract. Evaluation
 # tests prove the generator setting is absent; a live zram device proves both
 # that mm_stat reports unlimited and that a stale cap can be lifted in place.

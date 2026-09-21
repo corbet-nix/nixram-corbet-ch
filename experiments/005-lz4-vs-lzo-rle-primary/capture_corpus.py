@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 import mmap, os, random, re, string, sys
 
 TARGET_BYTES = 64 * 1024 * 1024

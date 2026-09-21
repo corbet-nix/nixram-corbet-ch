@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Per-user memory policy for Home Manager.
 #
 # system-manager has no `systemd.user.services` option. This module is the

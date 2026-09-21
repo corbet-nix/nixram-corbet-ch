@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # checks/swappiness-relief-vm-test.nix
 #
 # A REAL runtime test, not eval-only: boots an actual NixOS VM (ephemeral

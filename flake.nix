@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "Coherent host-memory policy: zram/zswap, PSI-armed systemd-oomd, sysctls, and opt-in user working-set policies.";
 

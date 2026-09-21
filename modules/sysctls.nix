@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/sysctls.nix
 #
 # The vm.* sysctl layer, plus the one MGLRU knob that ISN'T a sysctl at

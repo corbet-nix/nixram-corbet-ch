@@ -20,13 +20,13 @@ or kernel default, so nothing here is presented as more settled than it is.
 
 ```nix
 {
-  inputs.nixram.url = "github:julian-corbet/nixram-corbet-ch";
+  inputs.nixram.url = "github:corbet-nix/nixram-corbet-ch";
 }
 # in your nixosSystem modules:
 imports = [ inputs.nixram.nixosModules.nixram ];
 nixram = {
   enable = true;
-  level = "4G";  # find yours: nix run github:julian-corbet/nixram-corbet-ch#detect-level
+  level = "4G";  # find yours: nix run github:corbet-nix/nixram-corbet-ch#detect-level
 };
 ```
 
@@ -174,7 +174,7 @@ of a NixOS rebuild), import `systemManagerModules.nixram` instead:
 
 ```nix
 {
-  inputs.nixram.url = "github:julian-corbet/nixram-corbet-ch";
+  inputs.nixram.url = "github:corbet-nix/nixram-corbet-ch";
 }
 # in your system-manager modules:
 imports = [ inputs.nixram.systemManagerModules.nixram ];
@@ -250,12 +250,12 @@ back into `levels.nix` as tag upgrades over time.
 nixram is one of several small, independently-usable open-source projects
 sharing a common design system: **nixarch** (declarative Arch/CachyOS),
 **nixvps** (tiny sub-1GB NixOS VPS profiles),
-[nixremote](https://github.com/julian-corbet/nixremote-corbet-ch)
+[nixremote](https://github.com/corbet-nix/nixremote-corbet-ch)
 (cross-machine native Wayland app forwarding), and
-[nixsh](https://github.com/julian-corbet/nixsh-corbet-ch) (the
+[nixsh](https://github.com/corbet-nix/nixsh-corbet-ch) (the
 safe-adoption pattern for declarative shell config, across fish, bash and zsh). nixram's own niche
 is purely memory-pressure tuning — usable alongside any of them, or standalone.
 
-## License
+## Licence
 
-MIT.
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

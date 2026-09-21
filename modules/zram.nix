@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/zram.nix
 #
 # Wires services.zram-generator.settings -- deliberately NOT the legacy

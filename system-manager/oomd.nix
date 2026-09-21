@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # system-manager/oomd.nix
 #
 # The system-manager equivalent of modules/oomd.nix. `systemd.slices.<name>.sliceConfig`

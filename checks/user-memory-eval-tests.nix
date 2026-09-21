@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Evaluation tests for the user-memory extension.
 #
 # The Home Manager surface is deliberately stubbed instead of adding

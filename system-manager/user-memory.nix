@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # User-visible memory policy for system-manager hosts.
 #
 # The base nixram module intentionally stays independent of package managers:

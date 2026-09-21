@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # experiments/004-idle-tier-compression-level-sweep/vm-bench.nix
 #
 # Runs experiment 004 entirely inside a throwaway NixOS VM (pkgs.testers.nixosTest
